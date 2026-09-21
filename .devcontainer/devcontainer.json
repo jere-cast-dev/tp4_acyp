@@ -1,9 +1,10 @@
 {
     "image": "ubuntu:22.04",
-    "postCreateCommand": "apt update && apt install -y mpich libmpich-dev",
+    "postCreateCommand": "apt update && apt install -y git ripgrep mpich libmpich-dev",
     "customizations": {
         "vscode": {
             "extensions": ["ms-vscode.cpptools"]
         }
     }
 }
+
